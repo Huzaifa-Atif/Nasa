@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA</title>
+  <link rel="shortcut icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL3y9HMdddArZOshBzTKmM4pln2fHcn6_2JQ&s"
+    type="image/x-icon">
+  <link rel="stylesheet" href="NASA style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!--starting of the page-->
+  <nav class="bg-black w-full h-20 m-0 p-0">
+    <h3 id="h3" class="text-white text-2xl pt-6 pl-10 font-bold">Explore</h3>
+
+
+    <form id="form" class="flex items-center max-w-sm absolute ml-48 ">
+      <label for="simple-search" class="sr-only">Search</label>
+      <div class="relative w-full">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 18 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 5v10M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm12 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0V6a3 3 0 0 0-3-3H9m1.5-2-2 2 2 2" />
+          </svg>
+        </div>
+        <input type="text" id="simple-search"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Search branch name..." required />
+      </div>
+      <button type="submit"
+        class="p-2.5 ms-2 text-sm font-medium text-white bg-black rounded-lg border border-black  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
+    </form>
+    <div class="items-center justify-center flex">
+      <img id="img1" src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+    </div>
+
+    <div class="dropdown">
+      <a class="bg-black text-white text-xl font-bold" class="btn btn-secondary dropdown-toggle" href="#" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        News & Event=
+      </a>
+
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">All Nasa news</a></li>
+        <li><a class="dropdown-item" href="#">video series on NASA+</a></li>
+        <li><a class="dropdown-item" href="#">Podcasts</a></li>
+        <li><a class="dropdown-item" href="#">Blogs</a></li>
+        <li><a class="dropdown-item" href="#">Newsletter</a></li>
+        <li><a class="dropdown-item" href="#">Social media</a></li>
+        <li><a class="dropdown-item" href="#">Media Resources</a></li>
+        <li><a class="dropdown-item" href="#">Up comming launchis & landings</a></li>
+        <li><a class="dropdown-item" href="#">Virtual Events</a></li>
+
+      </ul>
+    </div>
+
+    <div class="dropdown1">
+      <a class="bg-black text-white text-xl font-bold" class="btn btn-secondary dropdown-toggle" href="#" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        Multimedia=
+      </a>
+
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">NASA+</a></li>
+        <li><a class="dropdown-item" href="#">images</a></li>
+        <li><a class="dropdown-item" href="#">NASA TV</a></li>
+        <li><a class="dropdown-item" href="#">sound and ringtones</a></li>
+        <li><a class="dropdown-item" href="#">Interactives</a></li>
+        <li><a class="dropdown-item" href="#">NASA APPS</a></li>
+        <li><a class="dropdown-item" href="#">Productus</a></li>
+        <li><a class="dropdown-item" href="#">e-books</a></li>
+        <li><a class="dropdown-item" href="#">STEM Multimedia</a></li>
+
+      </ul>
+    </div>
+    <div class="dropdown2">
+      <a class="bg-black text-white text-xl font-bold" class="btn btn-secondary dropdown-toggle" href="#" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        NASA+
+      </a>
+  </nav>
+  <!--ending of navbar-->
+
+  <!--first page starting-->
+  <div>
+    <h1 class="absolute mt-40 text-7xl font-bold text-white ml-8">NASA's Northrop<br /> Grumman CRS-21</h1>
+    <p class="absolute mt-80 text-white text-xl font-semibold ml-8">Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Aut quos maiores id dolorem at libero<br /> labore eos hic nesciunt dicta iste asperiores repellendus soluta
+      laborum, quod distinctio,<br /> neque quis nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Incidunt eveniet adipisci quibusdam nesciunt fugit<br /> pariatur tempore, </p>
+    <button type="button" class="btn btn-danger absolute mt-[460px] h-14 w-56 ml-8 text-xl font-normal">Mission
+      updates</button>
+    <div>
+      <ul class="flex flex-row absolute mt-[580px] text-white underline gap-56 ml-8">
+        <li>The Mission</li>
+        <li>Commercial REsupply</li>
+        <li>NASA Scince</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="flex flex-row absolute mt-[620px] text-white font-bold gap-52 ml-8 ">
+        <li>Research Heighlight</li>
+        <li>Resupply The Space Station</li>
+        <li>Living in Space</li>
+      </ul>
+    </div>
+    <img src="https://www.nasa.gov/wp-content/uploads/2024/08/cygnus-ng-21-eastgrass-dsc-1094.jpg?resize=1536,780"
+      alt="">
+  </div>
+  <!--first page end-->
+
+  <!--second page start-->
+  <div class="flex flex-row">
+    <h1 class="text-5xl font-bold ml-10 mt-16">Featured News</h1>
+    <h3 class="text-2xl font-semibold  ml-[750px] mt-10">More NASA News</h3>
+  </div>
+
+  <p class="absolute mt-[360px] ml-14 text-white">2 min Read</p>
+  <h1 class="absolute mt-[390px] ml-14 font-bold text-white text-2xl">NASA to Provide Crew Flight Test, Space Station
+    <br /> Mission update
+  </h1>
+
+  <p class="absolute mt-[310px] ml-[750px] text-white">4 min Read</p>
+  <h1 class="absolute mt-[330px] ml-[750px] text-white font-bold text-2xl">Artemmis Emergency <br /> Egress System<br />
+    Emphasizes Crew <br /> Saftey</h1>
+
+  <p class="absolute mt-[110px] ml-[1070px] text-white">4 min Read</p>
+  <h1 class="absolute mt-[140px] ml-[1070px] text-white font-bold text-2xl">Tundra Vegetation to<br /> Grow Taller
+    Greener<br /> Thought 2,100, NASA<br /> Study Find </h1>
+
+  <p class="absolute mt-[330px] ml-[1080px] text-black">4 Min Read</p>
+  <h1 class="absolute mt-[340px] ml-[1080px] text-black text-2xl font-bold">Who do I Navigate <br /> NASA Learning<br />
+    Resources and<br /> Oppertunities</h1>
+
+  <div class="flex flex-row mt-16">
+    <img class="h-[400px] w-[680px] ml-10 "
+      src="https://www.nasa.gov/wp-content/uploads/2024/08/iss.jpg?resize=1024,683" alt="">
+    <img class="h-[400px] w-[300px] ml-4"
+      src="https://www.nasa.gov/wp-content/uploads/2024/08/emergency-egress-testing.jpg" alt="">
+    <div>
+      <img class="h-[200px] w-[275px] ml-3"
+        src="https://www.nasa.gov/wp-content/uploads/2024/08/murphy-dome-scenics.jpg?resize=1024,576" alt="">
+      <img class="h-[198px] w-[275px] ml-3 mt-2"
+        src="https://www.nasa.gov/wp-content/uploads/2023/03/lrc-2019-h1_p_education-060733.jpg?resize=1024,768" alt="">
+    </div>
+  </div>
+  <!--second page end-->
+
+  <!--third page start-->
+  <h1 class="absolute mt-96 text-white text-8xl font-bold ml-11">Jupiter's Ocean<br /> World</h1>
+  <p class="absolute mt-[620px] text-white text-xl font-semibold ml-11">NASA's Europa Clipper is launching Oct. 10,
+    2024, on the first mission to<br />
+    conduct a detailed science investigation of Jupiter's moon Europa. Scientists<br />
+    predict Europa has a salty ocean beneath its icy crust that could hold the<br />
+    building blocks necessary to sustain life.</p>
+  <p class="absolute mt-[780px] text-gray-900 text-xl ml-12">Mission Overview=</p>
+  <div>
+    <img class="mt-24"
+      src="https://www.nasa.gov/wp-content/uploads/2024/08/ksc-20240320-ph-ilw01-0052orig.jpeg?resize=1536,1025" alt="">
+  </div>
+  <!--third page end-->
+
+  <!--forth page start-->
+  <h1 class="absolute mt-32 text-5xl font-bold ml-10">Solar System Exploration</h1>
+  <p class="absolute mt-24 ml-[1120px] font-bold text-[25px]">More To Explore</p>
+
+  <h3 class="absolute mt-[620px] ml-16 font-bold text-3xl text-white">Planets....</h3>
+  <h3 class="absolute mt-[620px] ml-[390px] font-bold text-3xl text-white">Sun....</h3>
+  <h3 class="absolute mt-[620px] ml-[699px] font-bold text-3xl text-white">Moon....</h3>
+  <h3 class="absolute mt-[560px] ml-[1020px] font-bold text-3xl text-white">Asteroids,<br /> Comets &<br /> Meteors....
+  </h3>
+
+  <div class="flex flex-row">
+    <img class="h-[430px] w-[300px] mt-[250px] ml-10"
+      src="https://science.nasa.gov/wp-content/uploads/2023/09/OSS2-1.jpg" alt="">
+    <img class="h-[430px] w-[300px] mt-[250px] ml-5"
+      src="https://science.nasa.gov/wp-content/uploads/2023/05/pia03149-copy.jpg" alt="">
+    <img class="h-[430px] w-[300px] mt-[250px] ml-5"
+      src="https://science.nasa.gov/wp-content/uploads/2023/03/moon-1-jpeg.webp" alt="">
+    <img class="h-[430px] w-[300px] mt-[250px] ml-5"
+      src="https://images-assets.nasa.gov/image/PIA02494/PIA02494~orig.jpg" alt="">
+  </div>
+  <!--forth page end-->
+
+  <!--fifth page start-->
+  <h1 class="absolute mt-[480px] text-white font-bold text-7xl ml-10">Earth<br /> Information<br /> Center</h1>
+
+  <p class="absolute mt-[770px] text-white font-[20px] text-[20px] ml-10">For more than 50 years, NASA satellites have
+    provided data on Earth's land<br />
+    water, air, temperature, and climate. NASA's Earth Information Center allows<br />
+    visitors to see how our planet is changing in six key areas: sea level rise and coastal impacts, health and<br />
+    air quality, wildfires, greenhouse gases,<br /> sustainable energy, and agriculture.
+  </p>
+
+  <p class="absolute mt-[970px] text-white font-bold text-2xl ml-10">Start Exploring=</p>
+  <div>
+    <img class="mt-28"
+      src="https://www.nasa.gov/wp-content/uploads/2024/07/ccfid-309003-eughtmileb-waus-lrg.jpg?resize=1536,1022"
+      alt="">
+  </div>
+  <!--fifth page end-->
+
+  <!--sixth page start-->
+  <div>
+    <p class="mt-16 ml-8 text-xl"><img class="h-[500px] w-[790px] mr-10"
+        src="https://www.nasa.gov/wp-content/uploads/2024/08/iss069e039063-lrg.jpg?resize=1536,1024" align="right">Today
+    </p>
+    <h1 class="text-4xl font-bold ml-8 mt-4">Image Of The Day </h1>
+
+    <p class="mt-20 ml-8 text-[26px] font-bold">Carving Canyons...</p>
+    <p class="mt-4 ml-6 text-lg font-normal">Erosion, tectonic uplift, and a human-built dam have<br /> all helped shape
+      the Upper Lake Powell area in Utah.</p>
+    <p class="mt-6 font-bold text-[19px] ml-7">Browse Image Archive</p>
+  </div>
+  <!--sixth page end-->
+
+  <!--seventh page start-->
+  <h1 class="mt-72 text-4xl font-bold ml-10">More NASA Image</h1>
+  <div class="flex flex-row">
+    <div class="mt-12 ml-5 flex flex-row">
+      <img class="h-[190px] w-[260px]"
+        src="https://images-assets.nasa.gov/image/2011-7185/2011-7185~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+      <img class="h-[97px] w-[170px] ml-[4px]"
+        src="https://images-assets.nasa.gov/image/KSC-2009-2851/KSC-2009-2851~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+      <img class="h-[87px] w-[169px] mt-[105px] -ml-[168px]"
+        src="https://images-assets.nasa.gov/image/KSC-20161213-PH_SWW01_0002/KSC-20161213-PH_SWW01_0002~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+    </div>
+    <div class=" flex flex-row mt-12 ml-2">
+      <img class="h-[190px] w-[260px]"
+        src="https://images-assets.nasa.gov/image/KSC-20210121-PH-JBS01_0079/KSC-20210121-PH-JBS01_0079~large.jpg?w=1536&h=1199&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+      <img class="h-[97px] w-[170px] ml-[4px]"
+        src="https://images-assets.nasa.gov/image/KSC-20170104-PH_SWW01_0003/KSC-20170104-PH_SWW01_0003~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+      <img class="h-[87px] w-[169px] mt-[105px] -ml-[168px]"
+        src="https://images-assets.nasa.gov/image/KSC-08pd0575/KSC-08pd0575~large.jpg?w=1536&h=1152&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+    </div>
+    <div class=" flex flex-row mt-12 ml-2">
+      <img class="h-[190px] w-[260px]"
+        src="https://images-assets.nasa.gov/image/KSC-20210615-PH-JBS01_0001/KSC-20210615-PH-JBS01_0001~orig.jpg?w=1536&h=1091&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+      <img class="h-[97px] w-[170px] ml-[4px]"
+        src="https://images-assets.nasa.gov/image/KSC-20170508-PH_SWW01_0004/KSC-20170508-PH_SWW01_0004~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+      <img class="h-[87px] w-[169px] mt-[105px] -ml-[168px]"
+        src="https://images-assets.nasa.gov/image/KSC-07pd2276/KSC-07pd2276~large.jpg?w=1536&h=1026&fit=crop&crop=faces%2Cfocalpoint"
+        alt="">
+    </div>
+  </div>
+  <!--seventh page end-->
+
+  <!--eaighth page start-->
+  <h1 class="mt-[160px] absolute text-white text-6xl font-bold ml-11">Explore The<br /> Uninverse from<br /> your Inbox
+  </h1>
+  <p class="mt-[390px] absolute text-white  text-xl font-medium ml-11">Stay up-to-date on the latest news from NASA–from
+    Earth to<br /> the Moon, the Solar System and beyond.</p>
+  <p class="mt-[460px] absolute text-white text-xl font-normal ml-11">We will never share your email address.Private
+    Policy</p>
+  <p class="absolute text-white text-2xl font-bold mt-[520px] ml-11">Sign up</p>
+  <div class="mt-20">
+    <img class="h-[520px] w-[100%]"
+      src="https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=1536,1199" alt="">
+  </div>
+  <!--eaigth page end-->
+
+  <!--ninth page start-->
+  <h1 class="text-4xl font-bold mt-14 ml-9">More Topics from NASA</h1>
+  <h3 class="text-white text-3xl font-bold mt-[400px] ml-12 absolute">Missions</h3>
+  <h3 class="text-white text-3xl font-bold mt-[390px] ml-96 absolute">Human In<br />Space</h3>
+  <h3 class="text-white text-3xl font-bold mt-[388px] ml-[690px] absolute">Climate<br />Change</h3>
+  <h3 class="text-white text-3xl font-bold mt-[388px] ml-[1010px] absolute">Our Solar<br />System</h3>
+
+  <div class="flex flex-row">
+    <div class="flex flex-row h-[410px] w-[310px] ml-10 gap-6 mt-14">
+      <img src="https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?resize=1024,576" alt="">
+      <img src="https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg" alt="">
+      <img src="https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp" alt="">
+      <img src="https://smd-cms.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg" alt="">
+    </div>
+
+    <h3 class="text-white text-3xl font-bold mt-[845px] ml-12 absolute">Uninverse</h3>
+    <h3 class="text-white text-3xl font-bold mt-[845px] ml-96 absolute">Scince News</h3>
+    <h3 class="text-white text-3xl font-bold mt-[845px] ml-[719px] absolute">Aeronautics</h3>
+    <h3 class="text-white text-3xl font-bold mt-[845px] ml-[1010px] absolute">Technology</h3>
+
+    <div class="flex flex-row h-[410px] w-[310px] -ml-[310px] mt-[490px] gap-6">
+      <img src="https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg" alt="">
+      <img src="https://science.nasa.gov/wp-content/uploads/2023/07/stsci-01h44ay5ztcv1npb227b2p650j-temp.png" alt="">
+      <img src="https://www.nasa.gov/wp-content/uploads/2022/12/aero-topic-card.jpg" alt="">
+      <img src="https://www.nasa.gov/wp-content/uploads/2022/12/nasa_technology1.png" alt="">
+    </div>
+
+  </div>
+  <!--ninth page end-->
+
+  <!--ending of the page-->
+  <div>
+    <img class="h-[70px] w-[70px] mt-20 ml-6 absolute"
+      src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+    <p class="mt-52 ml-6 absolute text-white font-bold text-3xl">National Aeronautics and Space<br /> Administration</p>
+    <p class="mt-80 ml-6 absolute text-white text-l">NASA explores the unknown in air and space,<br /> innovates for the
+      benefit of humanity, and inspires the<br /> world through discovery.</p>
+    <p class="mt-[410px] ml-6 absolute text-white text-l">About NASA Mission</p>
+  </div>
+  <div class="flex flex-row ml-[660px] text-white font-semibold gap-16 leading-10 mt-[200px] absolute">
+    <ul>
+      <li>Home</li>
+      <li>News & Events</li>
+      <li>Multimedia</li>
+      <li>NASA+</li>
+      <li>Missions</li>
+    </ul>
+
+    <ul>
+      <li>Human In Space</li>
+      <li>Earth & Climate</li>
+      <li>The Solar System</li>
+      <li>The Uninverse</li>
+      <li>Scince</li>
+    </ul>
+
+    <ul>
+      <li>Aeronautics</li>
+      <li>Technology</li>
+      <li>Learning Resources</li>
+      <li>About NASA</li>
+      <li>NASA en Espanol</li>
+    </ul>
+  </div>
+  <div class="bg-black w-[100%] h-[500px] mt-9"></div>
+  <!--ending of the page-->
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

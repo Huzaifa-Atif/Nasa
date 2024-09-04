@@ -1,0 +1,101 @@
+#h3{
+    font-family: "Oswald", sans-serif;
+}
+#form{
+    margin-bottom: 36px;
+    margin-top: -36px;
+}
+#img1{
+    margin-bottom: 36px;
+    margin-top: -46px;
+    height: 70px;
+    width: 70px;
+}
+.dropdown{
+    position: absolute;
+   margin-left: 900px; 
+   margin-bottom: 50px;
+   margin-top: -90px;
+}
+.dropdown1{
+    position: absolute;
+   margin-left: 1090px; 
+   margin-bottom: 50px;
+   margin-top: -80px;
+}
+.dropdown2{
+   margin-left: 1230px; 
+   margin-bottom: 50px;
+   margin-top: -80px;
+}
+#colour{
+    color: aliceblue;  
+}
+#colour1{
+    color: aliceblue;  
+    line-height: 23px;
+    font-size: 17px;
+    word-spacing: 6px;
+}
+#move{
+    margin-left: 1060px;
+    margin-bottom: 200px;
+    margin-top: -60px;
+}
+#margin{
+    margin-bottom: 90px;
+    margin-top: -120px;
+    margin-left: 60px;
+    height: 420px;
+    width: 600px;
+}
+#margin1{
+    height: 428px;
+    width: 330px;
+    margin-left: 16px;
+   margin-top:-127px;
+}
+#margin2{
+    height: 200px;
+    width: 290px;
+    margin-left: 12px;
+   margin-top:-127px;
+}
+#margin3{
+    height: 200px;
+    width: 290px;
+    margin-left: 1020px;
+    margin-top: -290px;
+}
+#text{
+    margin-top: -130px;
+    margin-left: 89px;
+}
+#text1{
+    margin-left: 89px;
+}
+#text2{
+    margin-left: 696px;
+    margin-top: -99px;
+}
+#text3{
+    margin-left: 696px;
+    margin-bottom: -60px;
+}
+#text4{
+    margin-left: 1040px;
+    margin-top: -360px;
+}
+#text5{
+    margin-left: 1036px;
+    margin-bottom: -490px
+
+}
+#decoration{
+    text-decoration: dashed;
+}
+
+
+
+
+
